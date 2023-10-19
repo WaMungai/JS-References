@@ -76,9 +76,13 @@
         twitter:'@techbaddie',
         facebook:'techbaddie.com'
     }
-    }
+    };
+
     console.clear();
     console.log(baddie);
+
+    const dev = Object.assign({}, baddie);
+    const dev2 = JSON.parse(JSON.stringify(baddie))
 
   </script>
 
